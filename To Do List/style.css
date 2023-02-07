@@ -2,9 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
+    margin-top: 1vw;
 }
 .styleBtn{
     margin-left: 1em;
+    font-size: 25px;
+    margin-top: 1vw;
+
+}
+.styleBtn:hover{
+    cursor: pointer;
 }
 .styleUl{
 
@@ -12,6 +20,33 @@
 
 
 body{
-    background: linear-gradient(#009FFD,#2A2A72) no-repeat;
+    background: linear-gradient(90deg,#0048fd,#18104d);
     height: 100vh;
+}
+
+.styleDiv{
+    margin-left: 1.5em;
+    font-size: 30px;
+
+
+
+}
+
+#remove{
+    background: red;
+    font-size: 18px;
+
+}
+
+#remove:hover{
+    cursor: pointer;
+}
+
+#edit{
+    font-size: 18px;
+    background-color:beige;
+
+}
+#edit:hover{
+    cursor: pointer;
 }

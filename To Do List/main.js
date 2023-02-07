@@ -15,7 +15,7 @@ buttonToDo.addEventListener('click', () => {
     newElement.style.color = color;
     newElement.innerHTML = content 
 
-    newElement.innerHTML = `<span>` +  content + `</span>`+ `    <button id="edit"> edit</button>` +` <button id="remove">&times;</button>`
+    newElement.innerHTML = `<div class="styleDiv"> <span>` +  content + `</span>`+ `    <button id="edit"> edit</button>` +` <button id="remove">&times;</button> </div>`
     tache.appendChild(newElement);
     nouvelle.value = "";
     newElement.querySelector('#edit').addEventListener('click', () => {
